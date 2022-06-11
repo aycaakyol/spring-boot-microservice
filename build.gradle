@@ -22,10 +22,6 @@ bootJar {
     enabled = false
 }
 
-plugins {
-    id 'java'
-}
-
 jar {
     manifest {
         attributes(
