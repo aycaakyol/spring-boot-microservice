@@ -25,7 +25,7 @@ bootJar {
 jar {
     manifest {
         attributes(
-                'Main-Class': 'spring-boot-microservice//microservice.product//src//main//java//com//aa//microservice//product//Application.java'
+                'Main-Class': 'spring-boot-microservice/microservice.product/src/main/java/com/aa/microservice/product/Application.java'
         )
     }
 }
