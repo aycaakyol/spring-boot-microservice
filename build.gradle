@@ -18,6 +18,17 @@ repositories {
 	mavenCentral()
 }
 
+bootJar {
+    enabled = false
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'spring-boot-microservice//microservice.product//src//main//java//com//aa//microservice//product//Application.java'
+        )
+    }
+}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
